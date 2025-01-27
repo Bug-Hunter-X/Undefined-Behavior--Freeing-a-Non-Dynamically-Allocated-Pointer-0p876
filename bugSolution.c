@@ -1,0 +1,1 @@
+int main() {    int x = 10;    int *ptr = &x;    *ptr = 20;    printf("%d\n", x); // Output: 20    //The following line is removed because it causes undefined behavior    //free(ptr); }
